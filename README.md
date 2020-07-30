@@ -19,4 +19,4 @@
 
 -------
 
-Find out more of my awesome projects below, or subscribe me by clicking the "Follow" button.
+Find out more of my awesome projects below, or subscribe me by clicking the "Follow" button. Thanks!
