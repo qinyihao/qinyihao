@@ -9,7 +9,7 @@
 
 ### Get in touch
 
-[![](https://img.shields.io/badge/-https://qyh1206.cn/-0e83cd?style=flat-square&logo=Blogger&logoColor=fff)](https://qyh1206.cn/) [![](https://img.shields.io/badge/-t.me/qyh1206_channel-3db6f1?style=flat-square&logo=Telegram&logoColor=2ca5e0)](https://t.me/qyh1206_channel) [![](https://img.shields.io/badge/-hy23162@163.com-911318?style=flat-square&logo=Mail.RU&logoColor=white&labelColor=c14438)](mailto:hy23162_at_163.com)
+[![](https://img.shields.io/badge/-https://qyh1206.cn/-0e83cd?style=flat-square&logo=Blogger&logoColor=fff)](https://qyh1206.cn/) [![](https://img.shields.io/badge/-t.me/qyh1206_channel-3db6f1?style=flat-square&logo=Telegram&logoColor=2ca5e0)](https://t.me/qyh1206_channel)
 
 ### Top languages
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=qinyihao&layout=compact)
