@@ -16,6 +16,8 @@
 
 ### My Repos
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=qinyihao&repo=adobe-softwares)](https://github.com/qinyihao/adobe-softwares)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=qinyihao&repo=Luogu_Problem_Solver)](https://github.com/qinyihao/Luogu_Problem_Solver)
+
 
 -------
 
