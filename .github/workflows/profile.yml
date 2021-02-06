@@ -25,11 +25,18 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
-          plugin_pagespeed: yes
-          plugin_pagespeed_screenshot: yes
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_stargazers: yes
+          plugin_pagespeed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }} # Optional but recommended
+          plugin_pagespeed_detailed: yes                         # Print detailed audit metrics
+          plugin_pagespeed_screenshot: no                        # Display a screenshot of your website
+          plugin_pagespeed_url: .user.website                    # Website to audit (defaults to your GitHub linked website)
+          plugin_tweets: no
+          plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }} # Required
+          plugin_tweets_limit: 2                            # Limit to 2 tweets
+          plugin_tweets_user: .user.twitter                 # Defaults to your GitHub linked twitter username:  
