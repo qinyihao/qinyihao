@@ -25,8 +25,8 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
-          plugin_pagespeed: yes
-          plugin_pagespeed_screenshot: yes
+          plugin_pagespeed: no
+          plugin_pagespeed_screenshot: no
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
