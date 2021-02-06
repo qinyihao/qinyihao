@@ -33,10 +33,3 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_stargazers: yes
-          plugin_people: yes
-          plugin_people_types: followers
-          plugin_people_limit: 14
-          plugin_people_size: 28 # Size in pixels of displayed avatars
-          plugin_tweets: yes
-          plugin_tweets_limit: 2
-          plugin_tweets_user: .user.twitter
