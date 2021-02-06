@@ -1,1 +1,1 @@
-![Metrics](https://metrics.lecoq.io/qinyihao?template=classic&activity=1&followup=1&isocalendar=1&languages=1&stars=1&tweets=1&activity.limit=5&activity.days=14&activity.filter=all&isocalendar.duration=undefined&languages.colors=github&languages.threshold=0%25&stars.limit=4&tweets.limit=2&tweets.user=.user.twitter&config.timezone=Asia%2FShanghai&config.animated=true)
+![](https://github.com/qinyihao/qinyihao/blob/master/github-metrics.svg)
