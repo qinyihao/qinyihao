@@ -13,9 +13,9 @@ jobs:
       - uses: lowlighter/metrics@master
         with:
           # You'll need to setup a personal token in your secrets.
-          token: "d77acd0a49e19b6c4ee7c7a038a0098a1138c067"
+          token: "NOT_NEEDED"
           # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: "d77acd0a49e19b6c4ee7c7a038a0098a1138c067"
+          committer_token: "NOT_NEEDED"
 
           # Options
           user: qinyihao
