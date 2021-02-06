@@ -12,10 +12,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
-          token: ${{d77acd0a49e19b6c4ee7c7a038a0098a1138c067}}
+          token: d77acd0a49e19b6c4ee7c7a038a0098a1138c067
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
-          committer_token: ${{d77acd0a49e19b6c4ee7c7a038a0098a1138c067}}
-
+          committer_token: d77acd0a49e19b6c4ee7c7a038a0098a1138c067
+          
           # Options
           user: qinyihao
           template: classic
