@@ -888,21 +888,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="164.89914627809722" height="8" fill="#563d7c"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="164.85558197001046" height="8" fill="#563d7c"/>
         
-          <rect mask="url(#languages-bar)" x="164.89914627809722" y="0" width="126.68685148927646" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="164.85558197001046" y="0" width="126.77490868677462" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="291.58599776737367" y="0" width="101.54119412573615" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="291.63049065678507" y="0" width="101.51436820235064" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="393.12719189310985" y="0" width="38.90314578677992" height="8" fill="#e34c26"/>
+          <rect mask="url(#languages-bar)" x="393.1448588591357" y="0" width="38.89286805844201" height="8" fill="#e34c26"/>
         
-          <rect mask="url(#languages-bar)" x="432.0303376798898" y="0" width="16.371172384558843" height="8" fill="#89e051"/>
+          <rect mask="url(#languages-bar)" x="432.03772691757774" y="0" width="16.36684732397727" height="8" fill="#89e051"/>
         
-          <rect mask="url(#languages-bar)" x="448.4015100644486" y="0" width="5.210970014534157" height="8" fill="#555555"/>
+          <rect mask="url(#languages-bar)" x="448.404574241555" y="0" width="5.209593340923239" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="453.61248007898274" y="0" width="4.163999229701292" height="8" fill="#ffac45"/>
+          <rect mask="url(#languages-bar)" x="453.6141675824783" y="0" width="4.1628991527790635" height="8" fill="#ffac45"/>
         
-          <rect mask="url(#languages-bar)" x="457.77647930868403" y="0" width="2.223520691315967" height="8" fill="#c6538c"/>
+          <rect mask="url(#languages-bar)" x="457.77706673525734" y="0" width="2.222933264742694" height="8" fill="#c6538c"/>
         
       </svg>
       
@@ -1040,8 +1040,8 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge average">
                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
                 
-                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="292.81 329"/>
-                  <text x="60" y="60" dominant-baseline="central">89</text>
+                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="282.94 329"/>
+                  <text x="60" y="60" dominant-baseline="central">86</text>
                 
               </svg>
               <span class="title">Performance</span>
@@ -1116,7 +1116,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.79 s
+                1.32 s
               
             </div>
             
@@ -1127,7 +1127,7 @@
           <div class="field">
             <div class="audit text">
               
-                1.88 s
+                1.82 s
               
             </div>
             
@@ -1149,7 +1149,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.79 s
+                0.74 s
               
             </div>
             
@@ -1160,7 +1160,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.90 s
+                0.82 s
               
             </div>
             
@@ -2753,7 +2753,7 @@
           
             <span>These metrics include private contributions, timezone Asia/Shanghai</span>
           
-          <span>Last updated Sun, 07 Feb 2021 11:02:11 GMT with lowlighter/metrics@3.4.0-beta</span>
+          <span>Last updated Sun, 07 Feb 2021 11:19:53 GMT with lowlighter/metrics@3.4.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
