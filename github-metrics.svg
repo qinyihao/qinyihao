@@ -832,8 +832,8 @@
             <rect x="0" y="0" width="220" height="8" fill="white" rx="5"/>
           </mask>
           <rect mask="url(#issues-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-          <rect mask="url(#issues-bar)" x="0" y="0" width="220" height="8" fill="#d73a49"/>
-          <rect mask="url(#issues-bar)" x="220" y="0" width="0" height="8" fill="#28a745"/>
+          <rect mask="url(#issues-bar)" x="0" y="0" width="195.55555555555554" height="8" fill="#d73a49"/>
+          <rect mask="url(#issues-bar)" x="195.55555555555554" y="0" width="24.444444444444457" height="8" fill="#28a745"/>
         </svg>
         <div class="field horizontal fill-width">
           <div class="field center">
@@ -842,7 +842,7 @@
           </div>
           <div class="field center">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#28a745" fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
-            <span class="no-wrap">0 Open</span>
+            <span class="no-wrap">1 Open</span>
           </div>
         </div>
       
@@ -1037,11 +1037,11 @@
         <section class="categories">
           
             <div class="categorie column">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge high">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge average">
                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
                 
-                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="296.1 329"/>
-                  <text x="60" y="60" dominant-baseline="central">90</text>
+                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="279.65 329"/>
+                  <text x="60" y="60" dominant-baseline="central">85</text>
                 
               </svg>
               <span class="title">Performance</span>
@@ -1059,11 +1059,11 @@
             </div>
           
             <div class="categorie column">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge high">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge average">
                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
                 
-                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="305.97 329"/>
-                  <text x="60" y="60" dominant-baseline="central">93</text>
+                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="282.94 329"/>
+                  <text x="60" y="60" dominant-baseline="central">86</text>
                 
               </svg>
               <span class="title">Best Practices</span>
@@ -1116,7 +1116,7 @@
           <div class="field">
             <div class="audit text">
               
-                1.33 s
+                0.92 s
               
             </div>
             
@@ -1127,7 +1127,7 @@
           <div class="field">
             <div class="audit text">
               
-                2.33 s
+                2.35 s
               
             </div>
             
@@ -1149,7 +1149,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.74 s
+                0.81 s
               
             </div>
             
@@ -1160,7 +1160,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.83 s
+                0.87 s
               
             </div>
             
@@ -2756,7 +2756,7 @@
           
             <span>These metrics include private contributions, timezone Asia/Shanghai</span>
           
-          <span>Last updated Mon, 08 Feb 2021 12:57:28 GMT with lowlighter/metrics@3.4.0-beta</span>
+          <span>Last updated Mon, 08 Feb 2021 13:23:46 GMT with lowlighter/metrics@3.4.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
