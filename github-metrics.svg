@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1592" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1640" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -350,6 +350,7 @@
     width: 100%;
     margin: 8px 0 4px;
     flex-grow: 1;
+    min-height: 70px;
   }
 
   .chart-bars .entry {
@@ -1040,8 +1041,8 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge average">
                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
                 
-                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="286.23 329"/>
-                  <text x="60" y="60" dominant-baseline="central">87</text>
+                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="282.94 329"/>
+                  <text x="60" y="60" dominant-baseline="central">86</text>
                 
               </svg>
               <span class="title">Performance</span>
@@ -1116,7 +1117,7 @@
           <div class="field">
             <div class="audit text">
               
-                1.78 s
+                1.44 s
               
             </div>
             
@@ -1127,7 +1128,7 @@
           <div class="field">
             <div class="audit text">
               
-                2.17 s
+                1.71 s
               
             </div>
             
@@ -1138,7 +1139,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.21 s
+                0.02 s
               
             </div>
             
@@ -1149,7 +1150,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.92 s
+                0.82 s
               
             </div>
             
@@ -1160,7 +1161,7 @@
           <div class="field">
             <div class="audit text">
               
-                1 s
+                0.95 s
               
             </div>
             
@@ -1434,7 +1435,7 @@
               </div>
             
               <div class="entry">
-                <span class="name">C</span>
+                <span class="name">C++</span>
                 <div class="bar" style="width: 2.3680000000000003%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                 <span class="value">3%</span>
               </div>
@@ -2756,7 +2757,7 @@
           
             <span>These metrics include private contributions, timezone Asia/Shanghai</span>
           
-          <span>Last updated Mon, 08 Feb 2021 19:17:28 GMT with lowlighter/metrics@3.4.0-beta</span>
+          <span>Last updated Mon, 08 Feb 2021 20:24:30 GMT with lowlighter/metrics@3.4.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
