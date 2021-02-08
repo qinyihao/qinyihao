@@ -888,21 +888,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="164.50638298529927" height="8" fill="#563d7c"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="164.50371375390864" height="8" fill="#563d7c"/>
         
-          <rect mask="url(#languages-bar)" x="164.50638298529927" y="0" width="127.53622639701689" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="164.50371375390864" y="0" width="127.5416208548163" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="292.0426093823162" y="0" width="101.24199712259566" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="292.04533460872494" y="0" width="101.24035440021696" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="393.2846065049119" y="0" width="38.82814540318431" height="8" fill="#e34c26"/>
+          <rect mask="url(#languages-bar)" x="393.2856890089419" y="0" width="38.827515389304786" height="8" fill="#e34c26"/>
         
-          <rect mask="url(#languages-bar)" x="432.1127519080962" y="0" width="16.322933777976267" height="8" fill="#89e051"/>
+          <rect mask="url(#languages-bar)" x="432.11320439824664" y="0" width="16.322668926932575" height="8" fill="#89e051"/>
         
-          <rect mask="url(#languages-bar)" x="448.4356856860725" y="0" width="5.195615589906524" height="8" fill="#555555"/>
+          <rect mask="url(#languages-bar)" x="448.4358733251792" y="0" width="5.195531287401207" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="453.631301275979" y="0" width="4.15172976506349" height="8" fill="#ffac45"/>
+          <rect mask="url(#languages-bar)" x="453.63140461258047" y="0" width="4.151662400337495" height="8" fill="#ffac45"/>
         
-          <rect mask="url(#languages-bar)" x="457.7830310410425" y="0" width="2.2169689589575823" height="8" fill="#c6538c"/>
+          <rect mask="url(#languages-bar)" x="457.7830670129179" y="0" width="2.216932987082024" height="8" fill="#c6538c"/>
         
       </svg>
       
@@ -1037,11 +1037,11 @@
         <section class="categories">
           
             <div class="categorie column">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge average">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge high">
                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
                 
-                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="286.23 329"/>
-                  <text x="60" y="60" dominant-baseline="central">87</text>
+                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="296.1 329"/>
+                  <text x="60" y="60" dominant-baseline="central">90</text>
                 
               </svg>
               <span class="title">Performance</span>
@@ -1116,7 +1116,7 @@
           <div class="field">
             <div class="audit text">
               
-                1.30 s
+                1.31 s
               
             </div>
             
@@ -1127,7 +1127,7 @@
           <div class="field">
             <div class="audit text">
               
-                1.78 s
+                1.60 s
               
             </div>
             
@@ -1138,7 +1138,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.01 s
+                0 s
               
             </div>
             
@@ -1149,7 +1149,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.79 s
+                0.72 s
               
             </div>
             
@@ -1160,7 +1160,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.90 s
+                0.81 s
               
             </div>
             
@@ -2750,7 +2750,7 @@
           
             <span>These metrics include private contributions, timezone Asia/Shanghai</span>
           
-          <span>Last updated Mon, 08 Feb 2021 08:26:42 GMT with lowlighter/metrics@3.4.0-beta</span>
+          <span>Last updated Mon, 08 Feb 2021 09:22:30 GMT with lowlighter/metrics@3.4.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
