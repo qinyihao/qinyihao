@@ -689,6 +689,27 @@
     fill: #58a6ff;
   }
 
+/* Contributors */
+  .contributors {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6px;
+  }
+  .contributors .label {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .contributors .label img {
+    margin-left: 0;
+  }
+  .contributors .contributions {
+    position: absolute;
+    bottom: 100%;
+    right: 100%;
+  }
+
 /* Fade animation */
   .af {
     opacity: 0;
@@ -2694,7 +2715,7 @@
           
             <span>These metrics include private contributions, timezone Asia/Shanghai</span>
           
-          <span>Last updated Wed, 17 Feb 2021 11:24:53 GMT with lowlighter/metrics@3.4.0-beta</span>
+          <span>Last updated Wed, 17 Feb 2021 13:27:43 GMT with lowlighter/metrics@3.4.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
