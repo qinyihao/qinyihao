@@ -1258,11 +1258,11 @@
         <section class="categories">
           
             <div class="categorie column">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge high">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge average">
                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
                 
-                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="296.1 329"/>
-                  <text x="60" y="60" dominant-baseline="central">90</text>
+                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="292.81 329"/>
+                  <text x="60" y="60" dominant-baseline="central">89</text>
                 
               </svg>
               <span class="title">Performance</span>
@@ -1337,7 +1337,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.94 s
+                0.97 s
               
             </div>
             
@@ -1348,7 +1348,7 @@
           <div class="field">
             <div class="audit text">
               
-                1.92 s
+                2.03 s
               
             </div>
             
@@ -1359,7 +1359,7 @@
           <div class="field">
             <div class="audit text">
               
-                0 s
+                0.01 s
               
             </div>
             
@@ -1370,7 +1370,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.78 s
+                0.75 s
               
             </div>
             
@@ -1381,7 +1381,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.86 s
+                0.81 s
               
             </div>
             
@@ -2960,7 +2960,7 @@
           
             <span>These metrics include private contributions, timezone Asia/Shanghai</span>
           
-          <span>Last updated Fri, 05 Mar 2021 01:52:56 GMT with lowlighter/metrics@3.5.0-beta</span>
+          <span>Last updated Fri, 05 Mar 2021 02:33:40 GMT with lowlighter/metrics@3.5.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
