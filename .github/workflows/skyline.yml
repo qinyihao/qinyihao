@@ -1,0 +1,25 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics-skyline
+on:
+  # Schedule updates
+  schedule: [{cron: "0 * * * *"}]
+  push: {branches: "master"}
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@master
+        with:
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: qinyihao
+          template: classic
+          plugin_skyline: yes
+          plugin_skyline_year: 0      # Set to 0 to display current year
+          plugin_skyline_frames: 60   # Use 60 frames (half-loop)
+          plugin_skyline_quality: 0.5 # Scale-down quality by half to reduce file-size (⚠️ higher quality increase file size)
