@@ -26,8 +26,6 @@ jobs:
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
           # plugin_languages_details: bytes-size, percentage
-          template: repository
-          user: repository-owner
           query: '{"repo":"repository-name"}'
           plugin_licenses: yes
           plugin_licenses_setup: npm ci       # Command to setup target repository
