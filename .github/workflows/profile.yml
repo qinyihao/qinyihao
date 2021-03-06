@@ -26,11 +26,6 @@ jobs:
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
           # plugin_languages_details: bytes-size, percentage
-          query: '{"repo":"repository-name"}'
-          plugin_licenses: yes
-          plugin_licenses_setup: npm ci       # Command to setup target repository
-          plugin_licenses_ratio: yes          # Display used licenses ratio
-          plugin_licenses_legal: yes          # Display permissions, limitations and conditions
           plugin_lines: yes
           plugin_habits: yes
           plugin_habits_from: 200
