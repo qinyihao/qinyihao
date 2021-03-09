@@ -199,6 +199,9 @@
   .gauge.low {
     color: #e53935;
   }
+  .gauge.info {
+    color: #58A6FF;
+  }
   .gauge-base, .gauge-arc {
     stroke: currentColor;
     stroke-width: 10;
@@ -2781,6 +2784,8 @@
         
       
         
+      
+        
 
 
 
@@ -2848,7 +2853,7 @@
           
             <span>These metrics include private contributions, timezone Asia/Shanghai</span>
           
-          <span>Last updated Tue, 09 Mar 2021 19:12:29 GMT with lowlighter/metrics@3.5.0-beta</span>
+          <span>Last updated Tue, 09 Mar 2021 20:19:45 GMT with lowlighter/metrics@3.5.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
