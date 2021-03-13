@@ -1322,8 +1322,8 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge high">
                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
                 
-                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="299.39 329"/>
-                  <text x="60" y="60" dominant-baseline="central">91</text>
+                  <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="305.97 329"/>
+                  <text x="60" y="60" dominant-baseline="central">93</text>
                 
               </svg>
               <span class="title">Performance</span>
@@ -1398,7 +1398,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.94 s
+                0.67 s
               
             </div>
             
@@ -1409,7 +1409,7 @@
           <div class="field">
             <div class="audit text">
               
-                1.81 s
+                1.84 s
               
             </div>
             
@@ -1420,7 +1420,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.01 s
+                0 s
               
             </div>
             
@@ -1431,7 +1431,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.70 s
+                0.67 s
               
             </div>
             
@@ -1442,7 +1442,7 @@
           <div class="field">
             <div class="audit text">
               
-                0.78 s
+                0.77 s
               
             </div>
             
@@ -1572,8 +1572,8 @@
             </div>
           
             <div class="entry">
-              <span class="value">1</span>
-              <div class="bar" style="height: 4.545454545454546px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+              <span class="value"></span>
+              <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
               12
             </div>
           
@@ -1655,19 +1655,19 @@
             
               <div class="entry">
                 <span class="value">2</span>
-                <div class="bar" style="height: 8.333333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                <div class="bar" style="height: 9.090909090909092px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                 Sun
               </div>
             
               <div class="entry">
                 <span class="value">10</span>
-                <div class="bar" style="height: 41.66666666666667px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                <div class="bar" style="height: 45.45454545454545px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                 Mon
               </div>
             
               <div class="entry">
                 <span class="value">1</span>
-                <div class="bar" style="height: 4.166666666666666px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                <div class="bar" style="height: 4.545454545454546px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                 Tue
               </div>
             
@@ -1690,7 +1690,7 @@
               </div>
             
               <div class="entry">
-                <span class="value">12</span>
+                <span class="value">11</span>
                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                 Sat
               </div>
@@ -3036,7 +3036,7 @@
           
             <span>These metrics include private contributions, timezone Asia/Shanghai</span>
           
-          <span>Last updated Sat, 13 Mar 2021 03:19:49 GMT with lowlighter/metrics@3.5.0-beta</span>
+          <span>Last updated Sat, 13 Mar 2021 04:23:45 GMT with lowlighter/metrics@3.5.0-beta</span>
         </footer>
       
       <div id="metrics-end"></div>
