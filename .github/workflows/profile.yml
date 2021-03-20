@@ -59,3 +59,8 @@ jobs:
           plugin_contributors_head: master       # Head reference (commit, tag, branch, etc.)
           plugin_contributors_ignored: bot       # Ignore "bot" user
           plugin_contributors_contributions: yes # Display number of contributions for each contributor
+          plugin_achievements: yes
+          plugin_achievements_threshold: C       # Display achievements with rank B or higher
+          plugin_achievements_secrets: yes       # Display unlocked secrets achievements
+          #plugin_achievements_ignored: octonaut  # Hide octonaut achievement
+          plugin_achievements_limit: 0           # Display all unlocked achievement matching threshold and secrets params
