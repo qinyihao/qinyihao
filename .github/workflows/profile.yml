@@ -49,11 +49,11 @@ jobs:
           plugin_posts: yes
           plugin_posts_source: dev.to      # External source
           plugin_people_user: .github.user # Use same username as GitHub login:
-          plugin_wakatime: yes                                      # (🚧 @master feature)
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      # Required
-          plugin_wakatime_days: 7                                   # Display last week stats
-          plugin_wakatime_sections: time, projects, projects-graphs # Display time and projects sections, along with projects graphs
-          plugin_wakatime_limit: 4                                  # Show 4 entries per graph:  
+          #plugin_wakatime: yes                                      # (🚧 @master feature)
+          #plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      # Required
+          #plugin_wakatime_days: 7                                   # Display last week stats
+          #plugin_wakatime_sections: time, projects, projects-graphs # Display time and projects sections, along with projects graphs
+          #plugin_wakatime_limit: 4                                  # Show 4 entries per graph:  
           plugin_contributors: yes
           plugin_contributors_base: ""           # Base reference (commit, tag, branch, etc.)
           plugin_contributors_head: master       # Head reference (commit, tag, branch, etc.)
