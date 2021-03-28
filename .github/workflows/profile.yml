@@ -25,7 +25,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
-          # plugin_languages_details: bytes-size, percentage
+          plugin_languages_details: bytes-size, percentage
           plugin_lines: yes
           plugin_habits: yes
           plugin_habits_from: 200
@@ -57,7 +57,7 @@ jobs:
           plugin_contributors: yes
           plugin_contributors_base: ""           # Base reference (commit, tag, branch, etc.)
           plugin_contributors_head: master       # Head reference (commit, tag, branch, etc.)
-          plugin_contributors_ignored: bot       # Ignore "bot" user
+          #plugin_contributors_ignored: bot       # Ignore "bot" user
           plugin_contributors_contributions: yes # Display number of contributions for each contributor
           plugin_achievements: yes
           plugin_achievements_threshold: C       # Display achievements with rank B or higher
