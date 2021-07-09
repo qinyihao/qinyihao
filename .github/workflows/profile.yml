@@ -26,14 +26,13 @@ jobs:
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
-          plugin_lines: yes
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_stargazers: yes
-          plugin_pagespeed: yes
+          plugin_pagespeed: no
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }} # Optional but recommended
           plugin_pagespeed_detailed: yes                         # Print detailed audit metrics
           plugin_pagespeed_screenshot: no                        # Display a screenshot of your website
@@ -41,12 +40,13 @@ jobs:
           plugin_tweets: yes
           plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }} # Required
           plugin_tweets_limit: 2                            # Limit to 2 tweets
+          plugin_tweets_attachments: yes                    # Display tweets attachments (images, preview urls, etc.)
           plugin_tweets_user: .user.twitter                 # Defaults to your GitHub linked twitter username:  
           plugin_projects: yes
           plugin_projects_repositories: CodeforcesContestHelper/CodeforcesContestHelper/projects/1 # Display #1 project of lowlighter/metrics repository
           plugin_projects_limit: 4                                    # Limit to 4 entries
           plugin_projects_descriptions: yes                           # Display projects descriptions
-          plugin_posts: yes
+          plugin_posts: mo
           plugin_posts_source: dev.to      # External source
           plugin_people_user: .github.user # Use same username as GitHub login:
           #plugin_wakatime: yes                                      # (🚧 @master feature)
@@ -64,3 +64,7 @@ jobs:
           plugin_achievements_secrets: yes       # Display unlocked secrets achievements
           #plugin_achievements_ignored: octonaut  # Hide octonaut achievement
           plugin_achievements_limit: 0           # Display all unlocked achievement matching threshold and secrets params
+          plugin_lines: yes
+          plugin_notable: yes
+          plugin_notable_filter: stars:>50  # Only display repositories with 500 stars or more (syntax based on GitHub search query)
+          plugin_notable_repositories: yes     # Display repositories name instead of only organization name
