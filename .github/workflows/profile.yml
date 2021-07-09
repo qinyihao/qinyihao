@@ -68,3 +68,7 @@ jobs:
           plugin_notable: yes
           plugin_notable_filter: stars:>50  # Only display repositories with 500 stars or more (syntax based on GitHub search query)
           plugin_notable_repositories: yes     # Display repositories name instead of only organization name
+          plugin_activity: yes
+          plugin_activity_limit: 5    # Limit to 5 events
+          plugin_activity_days: 14    # Keep only events from last 14 days (can be set to 0 to disable limitations)
+          plugin_activity_filter: all # Show all events (use table above to filter events types)
