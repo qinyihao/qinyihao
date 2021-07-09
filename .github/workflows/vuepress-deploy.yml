@@ -1,6 +1,6 @@
 name: Sync
 
-on: [ psuh ]
+on: [ push ]
 
 jobs:
     build:
