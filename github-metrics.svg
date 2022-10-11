@@ -2056,7 +2056,7 @@ Update refresh frequency to once a day.</div>
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 254k out of 100m users</span>
+                                    <span class="gh">ranked 255k out of 100m users</span>
                                 </div>
                                 <div class="text">Published 73 public repositories</div>
                             </div>
@@ -2674,7 +2674,7 @@ Update refresh frequency to once a day.</div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 11 Oct 2022, 23:55:36 (timezone Asia/Shanghai) with lowlighter/metrics@3.29.0-beta</span>
+                <span>Last updated 12 Oct 2022, 00:37:17 (timezone Asia/Shanghai) with lowlighter/metrics@3.29.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
