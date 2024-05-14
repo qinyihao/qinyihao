@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates
-  schedule: [{cron: "*/30 * * * *"}]
+  schedule: [{cron: "0 22 * * *"}]
   push: {branches: "master"}
   workflow_dispatch:
 jobs:
